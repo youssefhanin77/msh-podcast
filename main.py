@@ -6,7 +6,7 @@ from discord import PCMVolumeTransformer, FFmpegPCMAudio
 import asyncio
 from pytube import Playlist
 
-
+TOKEN = 'MTIyODg0OTUzMDU2MTM2NDA5OA.Gwn51q.bsVNVAtqN8GIU67HMo-gWylkqhVxxC4wr1NJZ4'
 GUILD_ID = '1157418594649522268' # Server id
 CHANNEL_ID = '1229892286691938365' # channel id ( Voice / Stage )
 
@@ -101,4 +101,4 @@ async def play_playlist(voice_client:discord.VoiceClient, playlists):
                     print(f"Error playing URL {url}: {e}")
                 continue
 
-bot.run(process.env.TOKEN);
+bot.run(TOKEN);
