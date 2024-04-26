@@ -102,4 +102,4 @@ async def play_playlist(voice_client:discord.VoiceClient, playlists):
                     print(f"Error playing URL {url}: {e}")
                 continue
 
-bot.run(TOKEN)
+bot.run(ENV.TOKEN)
