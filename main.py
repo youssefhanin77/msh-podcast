@@ -7,7 +7,7 @@ import asyncio
 from pytube import Playlist
 
 
-TOKEN = ENV.TOKEN # Bot Token
+TOKEN = 'ENV.TOKEN' # Bot Token
 GUILD_ID = '1157418594649522268' # Server id
 CHANNEL_ID = '1229892286691938365' # channel id ( Voice / Stage )
 
