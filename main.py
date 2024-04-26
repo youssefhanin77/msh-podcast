@@ -7,9 +7,9 @@ import asyncio
 from pytube import Playlist
 
 
-TOKEN = '' # Bot Token
-GUILD_ID = '' # Server id
-CHANNEL_ID = '' # channel id ( Voice / Stage )
+TOKEN = ENV.TOKEN # Bot Token
+GUILD_ID = '1157418594649522268' # Server id
+CHANNEL_ID = '1229892286691938365' # channel id ( Voice / Stage )
 
 intents = discord.Intents.default()
 intents.messages = True
